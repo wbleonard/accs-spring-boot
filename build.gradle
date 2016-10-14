@@ -11,6 +11,12 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'spring-boot'
+
+task zip(type: Zip) {
+    from jar.outputs.files   
+    from( 'manifest.json' ) 
+}
 
 jar {
     baseName = 'gs-spring-boot'
