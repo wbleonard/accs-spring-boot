@@ -1,4 +1,4 @@
- # accs-spring-boot
+# accs-spring-boot
 An example of a Spring Boot application configured to continuously deploy to the Application Container Cloud Service. 
 
 For details see:
